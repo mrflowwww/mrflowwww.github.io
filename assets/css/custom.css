@@ -832,3 +832,13 @@ hr {
   }
 
 }
+
+
+
+@media (max-width: 375px) {
+  .index-header {
+    background-image: url(../img/meinStuff/groupe1.jpg);
+    background-size: 350%;
+    background-position-x: 30%;
+  }
+}

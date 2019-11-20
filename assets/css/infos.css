@@ -443,6 +443,10 @@ section{
         width: 80%;
     }
 
+    .accordion-link {
+        font-size: 1rem;
+    }
+
     /* ##### Helfer ##### */
 
     .helfer-cta {
@@ -516,3 +520,6 @@ section{
         left: 30px;
     }
 }
+
+
+
