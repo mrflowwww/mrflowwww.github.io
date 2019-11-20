@@ -442,4 +442,77 @@ section{
     .mehr-info hr {
         width: 80%;
     }
+
+    /* ##### Helfer ##### */
+
+    .helfer-cta {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .helfer-bild {
+        max-width: 80%;
+    }
+
+    .helfer-text {
+        margin-top: 20px;
+    }
+
+    .helfer-text-links {
+        padding: 0;
+    }
+
+    .helfer-text-rechts {
+        padding: 0;
+    }
+
+    .helfer-text h2 {
+        font-weight: 600;
+    }
+
+    /* ## Bilder-Section ## */ 
+    .bilder-section {
+        padding: 360px 0;
+    }
+
+    #helfer-bild8 {
+        top: 500px;
+    }
+
+    #helfer-bild7 {
+        max-width: 280px;
+        top: -160px;
+        right: 10px;
+    }
+
+    #helfer-bild6 {
+        top: 350px;
+        z-index: 3;
+        max-width: 230px;
+    }
+
+    #helfer-bild5 {
+        top: 260px;
+        max-width: 200px;
+        left: 0;
+    }
+
+    #helfer-bild3 {
+        left: 80px;
+        top: 650px;
+        max-width: 260px;
+        z-index: 3;
+    }
+
+    #helfer-bild2 {
+        top: 160px;
+        max-width: 260px;
+        z-index: 3;
+        left: 160px;
+    }
+
+    #helfer-bild1 {
+        max-width: 300px;
+        left: 30px;
+    }
 }
