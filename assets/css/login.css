@@ -72,6 +72,16 @@ small a {
     box-shadow: 0 0 21px 0 rgba(0,0,0,0.09);
 }
 
+
+.passwort-reset-container {
+    background-color: #fff;
+    height: 650px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 40px 0;
+    box-shadow: 0 0 21px 0 rgba(0,0,0,0.09); 
+}
+
 .toggle-row {
     margin: 0 20px;
 }
@@ -293,6 +303,13 @@ hr {
     /* ##### Registrierung ##### */
 
     .registrierungs-container {
+        width: 90%;
+        margin-top: 50px;
+    }
+    
+    /* ##### Passwort Reset ##### */
+
+    .passwort-reset-container {
         width: 90%;
         margin-top: 50px;
     }
