@@ -581,6 +581,11 @@ hr {
   margin-right: auto;
 }
 
+#contact-heading {
+  font-size: 45px;
+  margin-top: 10px;
+}
+
 .contact-bild {
   margin-top: 200px;
 }
