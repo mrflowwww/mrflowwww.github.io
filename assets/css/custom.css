@@ -846,4 +846,14 @@ hr {
     background-size: 350%;
     background-position-x: 25%;
   }
+
+  .text-boxen-row .boxen h1 {
+    font-size: 18px;
+  }
+
+  #download-now{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 }
