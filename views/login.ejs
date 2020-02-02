@@ -1,0 +1,29 @@
+<%- include('partials/login-header'); -%>
+
+    <section class="login-section">
+        <div class="container login-container">
+            <div class="row">
+                <div class="col-lg-8 login-spalte">
+                    <img src="assets/img/meinStuff/Logo_grün_klein_pixelperfect.png" class="login-logo" alt="">
+                    <div class="row toggle-row">
+                        <div class="col-lg-6 toggle-buttons">
+                            <a href="login.html" class="aktive">Login</a>
+                        </div>
+                        <!--<div class="col-lg-6 toggle-buttons">
+                                <a href="registrieren.html">Registrieren</a>
+                            </div>-->
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Nutzername" id="nutzername">
+                        <input type="password" placeholder="Passwort" id="passwort">
+                        <button type="submit">Einloggen</button>
+
+                        <small><a href="passwort_reset1.html">Passwort vergessen?</a></small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <%- include('partials/footer'); -%>

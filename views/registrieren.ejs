@@ -1,0 +1,31 @@
+<%- include('partials/login-header'); -%>
+
+    <!-- Start Registrierung Section -->
+    <section class="login-section">
+        <div class="container registrierungs-container">
+            <div class="row">
+                <div class="col-lg-8 login-spalte">
+                    <img src="assets/img/meinStuff/Logo_grün_klein_pixelperfect.png" class="login-logo" alt="">
+                    <div class="row toggle-row">
+                            <div class="col-lg-6 toggle-buttons">
+                                <a href="registrieren.html" class="aktive">Registrieren</a>
+                            </div>
+                        </div>
+                    <form action="">
+                        <input type="text" placeholder="Nutzername" id="nutzername">
+                        <input type="email" placeholder="E-mail" id="email">
+                        <input type="text" placeholder="Vorname" id="Vorname">
+                        <input type="text" placeholder="Nachname" id="Nachname">
+                        <input type="password" placeholder="Passwort" id="passwort">
+                        <input type="password" placeholder="Passwort bestätigen" id="passwort">
+
+                        <button type="submit">Registrieren</button>
+                        <small><a href="login.html">Zum Login?</a></small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <%- include('partials/footer'); -%>

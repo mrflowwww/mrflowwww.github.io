@@ -1,0 +1,69 @@
+<%- include('partials/login-header'); -%>
+
+    <section class="head">
+        <div class="container header-container">
+
+        </div>
+    </section>
+
+    <section class="dashboard">
+        <div class="container dashboard-container">
+            <div class="row">
+                <div class="col-lg-4 tab-leiste">
+                    <ul class="tabs">
+                        <li class="active"><i class="icon ion-md-home"></i><a href="dashboard.html">Kontoübersicht</a></li>
+                        <li><i class="icon ion-md-create"></i><a href="dashboard_edit.html">Profil bearbeiten</a></li>
+                        <li><i class="icon ion-md-return-right"></i><a href="index.html">Abmelden</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-8 info-section">
+                    <h2>Kontoübersicht</h2>
+                    <h3>Profil</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Email</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="info">eichstaedt.florian@web.de</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Adresse</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="info">Am Löwengarten 12</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Passwort</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="info">***********</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Zahlungsmethode</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="info">Paypal</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6 upload-col">
+                            <div class="upload"><p>Gewerbeschein hochladen</p><input type="file" placeholder="File" id="input-file"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/footer'); -%>
